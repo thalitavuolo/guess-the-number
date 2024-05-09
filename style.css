@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#141B34;
+  width: 100%;
+  height: 100vh;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 560px;
+  height: 434px;
+  background-color: #C7D2FE;
+  border-radius: 14px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+p {
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.screen-02 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+#inputNumber {
+  background-color: transparent;
+  border: 1px solid #1E1B4B;
+  border-radius: 8px;
+  width: 87px;
+  height: 48px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#btnTry {
+  width: 87px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #141B34;
+  border-bottom-width: 4px;
+  padding: 15px 18px;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #EEF2FF;
+  cursor: pointer;
+}
+
+#btnTry:hover {
+ border-color: #4f46e5;
+}
+
+#btnReset {
+  width: auto;
+  border-radius: 8px;
+  border: 1px 1px 1px 6px solid #141B34;
+  border-bottom-width: 4px;
+  padding: 15px 18px;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #EEF2FF;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
